@@ -12,7 +12,7 @@ public class AuthorDTO {
 	
 	public AuthorDTO(User obj) {
 		id = obj.getId();
-		name = obj.getEmail();
+		name = obj.getName();
 	}
 
 	public String getId() {
